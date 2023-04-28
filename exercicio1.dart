@@ -22,14 +22,9 @@ void main ()
   {
     aumento = 0.05;
   }
-  if (salario <= 0)
-  {
-    print('procure ajuda.');
-  }
   print('seu salário antes do aumento: $salario.');
   print('seu aumento é de: ${aumento * 100}%;');
   print('equivalente a ${aumento * salario} reais.');
   salario = salario * aumento + salario;
   print('E agora seu salario é $salario.');
-  
 }
